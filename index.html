@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>[your name]</title>
+  <script src="script.js" defer></script>
+</head>
+
+<body class="container lg:text-xl lg:max-w-screen-lg lg:mx-auto">
+  <header class="flex justify-between items-center md:w-full md:fixed md:h-16 lg:max-w-screen-lg">
+    <!-- Mobile Nav Toggle -->
+    <a href="#menu"
+      id="home"
+      class="inline-block md:hidden py-4 px-6 appearance-none focus:outline-none">
+      <svg id="btn-hamburger" class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <title>Menu</title>
+        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+      </svg>
+    </a>
+    <!-- Title -->
+    <a class="md:w-full py-4 px-6 md:py-0 text-3xl md:text-4xl" href="index.html"><span>[your name]</span></a>
+    <!-- Navbar -->
+    <nav id="menu" class="container p-4 md:py-2">
+      <a href="#home"
+        id="menu-close"
+        class="absolute md:hidden top-0 right-0 p-6 z-20">
+        <svg  id="btn-close" class="fill-current h-5 w-5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <time>Close</time>
+          <path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
+        </svg>
+      </a>
+      <!-- Desktop Menu -->
+        <ul class="min-h-full flex flex-col md:flex-row justify-around md:justify-end items-center relative z-10 py-12 md:py-0 text-3xl md:text-2xl">
+          <li class="px-4 hover:text-blue-400"><a href="#works">Works</a></li>
+          <li class="px-4 hover:text-blue-400"><a href="#profile">Profile</a></li>
+          <li class="px-4 hover:text-blue-400"><a href="mailto:[your email]" target="_blank">Contact</a></li>
+          <li id="theme-toggle" class="px-4"><svg class="fill-current h-6 w-6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10v-20zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12z" /></svg></li>
+        </ul>
+    </nav>
+  </header>
+  <!-- works -->
+  <section id="works">
+    <div class="container mx-auto px-4 py-8 md:pt-24 md:pb-12 flex flex-wrap justify-center items-center">
+      <div class="max-w-sm md:max-w-md overflow-hidden border border-gray-400 rounded-b m-2 hover:shadow-xl hover:underline image-card">
+        <div>
+          <img class="w-full" src="assets/works/chicago.jpg" alt="image" />
+          <div class="w-full px-6 py-4 text-center">
+            <p class="font-bold text-base">Chicago</p>
+          </div>
+        </div>
+      </div>
+      <div class="max-w-sm md:max-w-md overflow-hidden border border-gray-400 rounded-b m-2 hover:shadow-xl hover:underline image-card">
+        <div>
+          <img class="w-full" src="assets/works/modern-cyclops.jpg" alt="image" />
+          <div class="px-6 py-4 text-center">
+            <p class="font-bold text-base">Modern Cyclops</p>
+          </div>
+        </div>
+      </div>
+      <div class="max-w-sm md:max-w-md overflow-hidden border border-gray-400 rounded-b m-2 hover:shadow-xl hover:underline image-card">
+        <div>
+          <img class="w-full" src="assets/works/pineapple-blue.jpg" alt="image" />
+          <div class="px-6 py-4 text-center">
+            <p class="font-bold text-base">Pineapple blue</p>
+          </div>
+        </div>
+      </div>
+      <div class="max-w-sm md:max-w-md overflow-hidden border border-gray-400 rounded-b m-2 hover:shadow-xl hover:underline image-card">
+        <div>
+          <img class="w-full" src="assets/works/moutains.jpg" alt="image" />
+          <div class="px-6 py-4 text-center">
+            <p class="font-bold text-base">The Coldest Sunset</p>
+          </div>
+        </div>
+      </div>
+      <div class="max-w-sm md:max-w-md overflow-hidden border border-gray-400 rounded-b m-2 hover:shadow-xl hover:underline image-card">
+        <div>
+          <img class="w-full" src="assets/works/coney-island-grafitti.jpg" alt="image" />
+          <div class="px-6 py-4 text-center">
+            <p class="font-bold text-base">Grafitti at Coney Island</p>
+          </div>
+        </div>
+      </div>
+      <div class="max-w-sm md:max-w-md overflow-hidden border border-gray-400 rounded-b m-2 hover:shadow-xl hover:underline image-card">
+        <div>
+          <img class="w-full" src="assets/works/the-van-gogh-selfie.jpg" alt="image" />
+          <div class="px-6 py-4 text-center">
+            <p class="font-bold text-base">The van Gogh selfie</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Artist Profile -->
+  <section id="profile">
+    <div class="container mx-auto px-4 py-8 lg:pt-12 lg:pb-24 text-center">
+      <img class="h-32 md:h-48 mx-auto mb-3 rounded-full flex justify-center items-center" src="assets/profile.jpg" alt="avatar" />
+      <h2 class="text-4xl font-bold mb-2">[your name]</h2>
+      <h3 class="text-xl mb-4">[your inspiring bio]</h3>
+      <!-- Socials -->
+      <div class="flex flex-wrap justify-center pt-8 pb-4">
+        <div class="w-16 h-16 flex justify-center items-center mx-4 border border-gray-400 rounded-full hover:border-blue-400 hover:text-blue-400">
+          <a href="https://facebook.com/[your username]" target="_blank"><i class="fa fa-facebook fa-2x pt-2 pr-1"></i></a>
+        </div>
+        <div class="w-16 h-16 flex justify-center items-center mx-4 border border-gray-400 rounded-full hover:border-blue-400 hover:text-blue-400">
+          <a href="https://twitter.com/[your username]" target="_blank"><i class="fa fa-twitter fa-2x pt-1"></i></a>
+        </div>
+        <div class="w-16 h-16 flex justify-center items-center mx-4 border border-gray-400 rounded-full hover:border-blue-400 hover:text-blue-400">
+          <a href="https://instagram.com/[your username]" target="_blank"><i class="fa fa-instagram fa-2x pt-1"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <div class="container flex flex-col sm:flex-row sm:flex-wrap justify-between items-center mx-auto mb-6 px-4 text-sm">
+      <p class="uppercase">©2020 [your name]</p>
+      <p><a class="hover:text-blue-400" href="https://github.com/yougotwill/art-gallery" target="_blank">Design: Art Gallery by William Grant</a></p>
+    </div>
+  </footer>
+</body>
+</html>
