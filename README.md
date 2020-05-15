@@ -41,29 +41,29 @@ Here's a short (imperfect) explanation on how to use `Art Gallery`:
 
 #### Screenshot 1
 
-<p align="center"><img  width="360" src="assets/screenshots/screenshot-light-mobile-1.png"></p>
+<p align="center"><img  width="360" src="assets/screenshots/screenshot-light-mobile-1.jpg"></p>
 
 #### Screenshot 2
 
-<p align="center"><img  width="360" src="assets/screenshots/screenshot-light-mobile-2.png"></p>
+<p align="center"><img  width="360" src="assets/screenshots/screenshot-light-mobile-2.jpg"></p>
 
 #### Dark theme
 
-<p align="center"><img  width="360" src="assets/screenshots/screenshot-dark-mobile.png"></p>
+<p align="center"><img  width="360" src="assets/screenshots/screenshot-dark-mobile.jpg"></p>
 
 ### Desktop
 
 #### Screenshot 1
 
-<p align="center"><img src="assets/screenshots/screenshot-light-1.png"></p>
+<p align="center"><img src="assets/screenshots/screenshot-light-1.jpg"></p>
 
 #### Screenshot 2
 
-<p align="center"><img src="assets/screenshots/screenshot-light-2.png"></p>
+<p align="center"><img src="assets/screenshots/screenshot-light-2.jpg"></p>
 
 #### Dark theme
 
-<p align="center"><img src="assets/screenshots/screenshot-dark.png"></p>
+<p align="center"><img src="assets/screenshots/screenshot-dark.jpg"></p>
 
 ## Contributing
 
